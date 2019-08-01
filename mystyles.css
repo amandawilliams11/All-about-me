@@ -1,0 +1,29 @@
+h1{
+
+  color:purple;
+}
+body{
+  background-color: pink;
+
+
+}
+
+#test-area {
+ 	height: 200px;
+ 	border: 3px dashed #CCCCCC;
+ 	background: #FFFFFF;
+ 	padding: 20px;
+ 	cursor: url(./peppapig.cur), none;
+}
+
+#mycursor {
+ 	cursor: none;
+ 	width: 97px;
+ 	height: 137px;
+ 	background: url("images/custom-cursor.jpg") no-repeat left top;
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
+}
